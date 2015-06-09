@@ -1,0 +1,179 @@
+<!-- A DrawerLayout is intended to be used as the top-level content view using match_parent for both width and height to consume the full space available. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    android:orientation="vertical"
+    tools:context=".Mainpage">
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="#008b8b"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="Select the service"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="7dp"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        android:background="@drawable/smalllinear2white"
+        >
+
+        <ImageView
+            android:layout_weight="80"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tabplum" />
+        <TextView
+            android:layout_weight="20"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:text="Plumber"
+            android:id="@+id/tvplumber" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="7dp"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        android:background="@drawable/smalllinear2white"
+        >
+
+        <ImageView
+            android:layout_weight="80"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tabelec" />
+        <TextView
+            android:layout_weight="20"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:text="Electrician"
+            android:id="@+id/tvelec" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="7dp"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        android:background="@drawable/smalllinear2white"
+        >
+
+        <ImageView
+            android:layout_weight="80"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tabmech" />
+        <TextView
+            android:layout_weight="20"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:text="Mechanic"
+            android:id="@+id/tvmech" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="7dp"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        android:background="@drawable/smalllinear2white"
+        >
+
+        <ImageView
+            android:layout_weight="80"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tabpaint" />
+        <TextView
+            android:layout_weight="20"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:text="Painter"
+            android:id="@+id/tvpaint" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="7dp"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        android:background="@drawable/smalllinear2white"
+        >
+
+        <ImageView
+            android:layout_weight="80"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tabplum" />
+        <TextView
+            android:layout_weight="20"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:text="Laundry"
+            android:id="@+id/tvlaund" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="7dp"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        android:background="@drawable/smalllinear2white"
+        >
+
+        <ImageView
+            android:layout_weight="80"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tabplum" />
+        <TextView
+            android:layout_weight="20"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:text="Carpenter"
+            android:id="@+id/tvcarp" />
+
+    </LinearLayout>
+
+</LinearLayout>
